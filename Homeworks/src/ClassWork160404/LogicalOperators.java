@@ -19,12 +19,12 @@ public class LogicalOperators {
 		System.out.println(a | b);		
 		System.out.println(a ^ b);		
 		
-		x = null;
-		
-		if ( x != null && x.getValue() < 5) {
-			// do something
-		  }
-		}
+//		x = null;
+//		
+//		if ( x != null && x.getValue() < 5) {
+//			// do something
+//		  }
+//		}
 		
 	}
 
