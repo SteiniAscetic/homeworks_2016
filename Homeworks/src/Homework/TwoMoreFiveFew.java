@@ -19,15 +19,15 @@ public class TwoMoreFiveFew {
 		
 		if (x == 2) {
 			
-			System.out.println("Много");
+			System.out.println("РњРЅРѕРіРѕ");
 		}
 		if (x == 5) {
 			
-			System.out.println("Мало");
+			System.out.println("РњР°Р»Рѕ");
 		}
 		if (x == 1) {
 			
-			System.out.println("В самый раз!");
+			System.out.println("Р’ СЃР°РјС‹Р№ СЂР°Р·!");
 		}
 
 	}
