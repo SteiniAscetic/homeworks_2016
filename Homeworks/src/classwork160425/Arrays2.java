@@ -10,7 +10,7 @@ public class Arrays2 {
 		
 		s2 = new String[] {"Один", "Два", "Три"};
 		
-		String[] s3 = new String[5];  // s3 хранит ссылку на масси строк
+		String[] s3 = new String[5];  // s3 хранит ссылку на массив строк
 		
 	}
 
