@@ -1,4 +1,4 @@
-package classwork160426;
+package classwork160428;
 
 import java.util.Arrays;
 
@@ -15,17 +15,34 @@ public class BinarySearch {
 		Arrays.sort(a);
 		
 		System.out.println(Arrays.toString(a));
-		System.out.println(Arrays.toString(b));
-		
-        int result = Arrays.binarySearch(a, 1);
+			
+        int result = binarySearch(a, -500);
         
         System.out.println(result);
         System.out.println(a[result]);
 		
 	}
 	
-	int binarySearch(int[] x) {
+	static int binarySearch(int[] x, int key) {
 		// TODO write code for binary search
+		
+		int left = 0;
+		int right = x.length - 1;
+		
+		while (left <= right) {
+			int mid = left + (right - left) / 2;
+			if (x[mid] == key) {
+				return mid;
+			}
+			if (x[mid] > key) {
+				right = mid - 1;
+			} else {
+				left = mid + 1;
+			}
+			
+		}
+
+		
 		
 		return -1;
 	}
