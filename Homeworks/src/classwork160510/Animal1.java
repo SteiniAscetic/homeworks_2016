@@ -1,6 +1,6 @@
-package classwork160505;
+package classwork160510;
 
-public class Animal {
+public class Animal11 {
 
 	// class members
 	
@@ -10,21 +10,28 @@ public class Animal {
 	private String kind;  
 	private boolean isHungry = true;
 	
-	public Animal(String kind, String name) {
+	
+	
+	
+	public Animal11(String kind, String name) {
 		this.kind = kind;
 		this.name = name;
 	}
 	
-	public Animal(boolean h, String n, String k) {
+	public Animal11(boolean h, String n, String k) {
 		kind = k;
 		name = n;
 		isHungry = h;
 	}
 	
-	public Animal() {
-		kind = "микроб";
-		name = "";
-		isHungry = true;
+	public Animal11(String king, String name) {
+		this(true, name, kind);
+	}
+	
+	
+	public Animal11() {
+//		this(true, "", "микроб");
+		this("микроб", "");
 	}
 	
 
