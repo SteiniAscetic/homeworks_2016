@@ -14,8 +14,7 @@ public class NumberToBit {
 		}
 		
 		System.out.println(1);
-
-
+				
 	}
 
 }
